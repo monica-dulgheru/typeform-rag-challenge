@@ -1,0 +1,8 @@
+original-ask/
+credentials/
+*__pycache__*
+experiments/
+.env
+documentation/
+*venv*/
+knowledgebase/clean_docs/
