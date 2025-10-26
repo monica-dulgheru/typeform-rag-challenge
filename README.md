@@ -30,8 +30,8 @@ After setting up your `.env` file (see Prerequisites Setup below), choose your p
 
 ### 1. Clone and Setup
 ```bash
-git clone https://github.com/monica-dulgheru/typeform-rag-takehome.git
-cd typeform-rag-takehome
+git clone https://github.com/monica-dulgheru/typeform-rag-challenge.git
+cd typeform-rag-challenge
 ```
 
 ### 2. Configure Credentials
@@ -179,7 +179,7 @@ curl http://localhost:8000/models
 
 ### Initial Structure (After Clone)
 ```
-typeform-rag-takehome/
+typeform-rag-challenge/
 ├── src/                               # Core RAG pipeline components
 │   ├── knowledge_acquisition/         # HTML parsing and text cleaning
 │   ├── chunking/                      # Document chunking pipeline
@@ -204,7 +204,7 @@ typeform-rag-takehome/
 
 ### After Running dev_interactive_run.py
 ```
-typeform-rag-takehome/
+typeform-rag-challenge/
 ├── [all files above, plus:]
 ├── knowledgebase/
 │   ├── raw_docs/                     # Raw HTML files (provided)
@@ -307,7 +307,7 @@ This is likely an issue with the PROJECT_ROOT path
 PROJECT_ROOT=/app
 
 # For local: Use full absolute path
-PROJECT_ROOT=/home/user/typeform-rag-takehome
+PROJECT_ROOT=/home/user/typeform-rag-challenge
 ```
 
 #### 6. Container Management
